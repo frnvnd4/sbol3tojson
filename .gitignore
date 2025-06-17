@@ -1,0 +1,37 @@
+# Ignorar entornos virtuales
+venv/
+.venv/
+env/
+venv_pypi/
+
+# Ignorar directorios y archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de la distribución (que se generan al construir el paquete)
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Archivos de IDEs (ej. VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Archivos de log
+*.log
+
+# Archivos de base de datos
+*.sqlite3
+*.db
+
+# Archivos de configuración sensibles (ej. claves API, contraseñas)
+.env
+config.ini
+secrets.py
+
+# Archivos de OS
+.DS_Store # macOS
+Thumbs.db # Windows

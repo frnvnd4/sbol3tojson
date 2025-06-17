@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sbol3tojson"
-version = "0.0.b1"
+version = "0.0.b3"
 description = "This package converts sbol3 to json"
 readme = "README.md"
 dependencies = [
